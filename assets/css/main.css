@@ -158,8 +158,8 @@ button:focus {
 
 .button-primary {
   font-family: 'Neue Machina', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 400;
   background: #313131;
   border-radius: 33px;
   color: #FFFFFF;
@@ -173,8 +173,8 @@ button:focus {
 
 .button-secondary {
   font-family: 'Neue Machina', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 400;
   background: #FFFFFF;
   border-radius: 33px;
   color: #1E1E1E;
@@ -236,8 +236,8 @@ header .mobile-toggle img {
   padding: 0;
   min-height: auto;
   background: none;
-  margin-top: 110px;
-  margin-bottom: 140px;
+  margin-top: 70px;
+  margin-bottom: 80px;
 }
 
 .mean-container .mean-nav > ul {
@@ -325,16 +325,19 @@ header .mobile-toggle img {
   background: #1E1E1E;
   position: fixed;
   top: 0;
+  left: 0;
+  transform: translateY(-800px);
   width: 100%;
-  min-height: 100vh;
+  height: 700px;
   z-index: 100;
   padding: 26px 30px;
-  left: 100%;
-  transition: 0.3s;
+  bottom: 100%;
+  transition: 0s ease-in-out;
 }
 
 .side-menu.active {
-  left: 0;
+  transition: 0.6s ease-in-out;
+  transform: translateY(0);
 }
 
 .side-menu .logo-box {
@@ -508,12 +511,17 @@ header .mobile-toggle img {
   border-radius: 50%;
   border: 1px solid #333;
   padding: 15px 50px;
-  transition: 0.5s;
+  transition: 1s;
+}
+
+.features-box .feature-item h4.heading-4 {
+  transition: 0s;
 }
 
 .features-box .feature-item p {
   display: none;
   margin-bottom: 0;
+  color: #fff;
 }
 
 .features-box .feature-item:hover p {
@@ -607,6 +615,9 @@ header .mobile-toggle img {
 /* Product Section */
 .product-section {
   padding: 110px 0;
+  background-image: url(../img/products/bg.png);
+  background-repeat: no-repeat;
+  background-position: center 637px;
 }
 
 /*.product-section .grid-item { 
@@ -620,11 +631,12 @@ header .mobile-toggle img {
 }*/
 
 .product-section .product-item { 
-  margin-bottom: 40px;
+  margin-bottom: 31px;
 }
 
 .product-section .product-item img { 
   margin-bottom: 15px;
+  height: 360px;
 }
 
 .product-section .product-item h4.heading-4 { 
@@ -686,6 +698,39 @@ header .mobile-toggle img {
 /* Contact Section */
 .contact-section {
   padding: 150px 0 75px;
+}
+
+.arrow-animation {
+  width: 505px;
+  height: 505px;
+  background-image: url(../img/contact/animation-bg.svg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.arrow-animation img.polygon-yellow {
+  position: absolute;
+  top: 50%;
+  transform: translate(-35px,-50%);
+  left: 0;
+  transition: 1s;
+}
+
+.arrow-animation:hover img.polygon-yellow {
+  transform: translate(40px,-50%);
+}
+
+.arrow-animation img.polygon-blue {
+  position: absolute;
+  top: 50%;
+  transform: translate(30px,-50%);
+  right: 0;
+  transition: 1s;
+}
+
+.arrow-animation:hover img.polygon-blue {
+  transform: translate(-50px,-50%);
 }
 
 .contact-form .p-top {
