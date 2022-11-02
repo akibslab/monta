@@ -34,6 +34,34 @@
 	.features-box .feature-item h4.heading-4 {
 		font-size: 20px;
 	}
+
+
+	.product-section {
+		background-image: none;
+	}
+
+	.product-section .product-item img {
+		height: initial;
+	}
+
+	.arrow-animation {
+		width: 450px;
+		height: 450px;
+	}
+
+	.arrow-animation img.polygon-yellow {
+	  width: 240px;
+	  transform: translate(-25px,-50%);
+	}
+
+	.arrow-animation img.polygon-blue {
+	  width: 240px;
+	  transform: translate(20px,-50%);
+	}
+
+
+
+
 	/* product details */
 	.product-details-tab .tab-content .tab-pane {
 		height: 360px;
@@ -43,6 +71,7 @@
 		display: block;
 		margin-top: 25px;
 	}
+
 
 	.product-contents .socials {
 		display: block;
@@ -110,9 +139,24 @@
 		font-size: 12px;
 	}
 
+	.product-section {
+		background-image: none;
+	}
+
+	.product-section .product-item img {
+		height: initial;
+	}
+
 	.product-section .product-item h4.heading-4 {
 		font-size: 14px;
 	}
+
+
+	.arrow-animation {
+		margin: 0 auto 50px;
+	}
+
+
 	/* product details */
 	.product-contents .product-title h3 {
 		font-size: 47px;
@@ -121,6 +165,7 @@
 		display: block;
 		margin-top: 25px;
 	}
+
 
 	.product-contents .socials {
 		display: block;
@@ -139,6 +184,9 @@
 	}
 	.about-section .padding-right {
 		padding-right: 0px;
+	}
+	.gallery-section .carousel-item {
+		height: 600px;
 	}
 }
 
@@ -168,6 +216,14 @@
 	header {
 		padding: 20px 0;
 		background: #fff;
+	}
+
+	header .container {
+		padding: 0 25px;
+	}
+
+	header .logo-box img {
+		width: 124px;
 	}
 
 	header .header-menu {
@@ -241,7 +297,7 @@
 	.intro-section .intro-item h4.heading-4 {
 		max-width: 350px;
 		width: 100%;
-		margin: -55px auto 0;
+		margin: -40px auto 0;
 	}
 
 	.intro-section .intro-item p,
@@ -260,7 +316,7 @@
 		height: initial;
 		border: none !important;
 		padding: 0;
-		margin-bottom: 25px;
+		height: 80px;
 	}
 
 	.features-box .feature-item:hover p {
@@ -269,6 +325,10 @@
 
 	.features-box .feature-item:hover {
 		color: inherit;
+	}
+
+	.features-box .feature-item.item-1 p {
+	  color: #10B9C9;
 	}
 
 	.features-box .feature-item.item-1:hover h4.heading-4 {
@@ -280,6 +340,10 @@
 		z-index: initial;
 	}
 
+	.features-box .feature-item.item-2 p {
+	  color: #F1C04C;
+	}
+
 	.features-box .feature-item.item-2:hover h4.heading-4 {
 		color: #f1c04c;
 	}
@@ -289,6 +353,10 @@
 		z-index: initial;
 	}
 
+	.features-box .feature-item.item-3 p {
+	  color: #835592;
+	}
+
 	.features-box .feature-item.item-3:hover h4.heading-4 {
 		color: #835592;
 	}
@@ -296,6 +364,10 @@
 	.features-box .feature-item.item-3:hover {
 		background: initial;
 		z-index: initial;
+	}
+
+	.features-box .feature-item.item-4 p {
+	  color: #FF730E;
 	}
 
 	.features-box .feature-item.item-4:hover h4.heading-4 {
@@ -309,6 +381,7 @@
 
 	.product-section {
 		padding: 51px 0 23px;
+		background-image: none;
 	}
 
 	.product-section .product-item {
@@ -322,6 +395,7 @@
 
 	.product-section .product-item img {
 		margin-bottom: 10px;
+		height: initial;
 	}
 
 	.problems-section {
@@ -538,8 +612,13 @@
 		font-size: 30px;
 		margin-bottom: 80px;
 	}
+
 	.about-section .padding-right {
 		padding-right: 0px;
+	}
+
+	.gallery-section .carousel-item {
+		height: 365px;
 	}
 }
 
