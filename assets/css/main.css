@@ -29,6 +29,10 @@
 	margin-bottom: 100px;
 }
 
+.carousel.pointer-event {
+  touch-action: pan-y pinch-zoom;
+}
+
 /*---------------------------------
 	typography css start 
 ---------------------------------*/
@@ -194,9 +198,6 @@ header {
 
 header .logo-box img {
 	width: 160px;
-}
-header.header-white {
-	background-color: #ffffff;
 }
 
 header .header-menu ul {
@@ -614,12 +615,6 @@ header .mobile-toggle img {
 	height: 10rem;
 }
 
-.gallery-section .carousel-item {
-  height: 800px;
-  background-size: cover;
-  background-position: center;
-}
-
 /* Product Section */
 .product-section {
   padding: 110px 0;
@@ -871,14 +866,11 @@ header .mobile-toggle img {
 	background-color: #fafafa;
 }
 .breadcrumbs .breadcrumb-item a {
-	font-size: 18px;
+	font-size: 15px;
 	text-transform: uppercase;
 	color: #848484;
 	font-weight: normal;
 	font-family: "Neue Machina";
-}
-.breadcrumbs .breadcrumb-item a > span {
-	margin-right: 10px;
 }
 
 .product-details-tab .nav .nav-link {
@@ -922,7 +914,6 @@ header .mobile-toggle img {
 }
 .product-contents .product-title h3 {
 	font-size: 56px;
-	font-family: "Neue Machina";
 	text-transform: uppercase;
 	color: #353333;
 	font-weight: 500;
@@ -952,7 +943,6 @@ header .mobile-toggle img {
 	color: #353333;
 	font-weight: 500;
 	margin-bottom: 40px;
-	font-family: "Neue Machina";
 }
 
 .product-contents .product-button {
@@ -964,7 +954,6 @@ header .mobile-toggle img {
 	font-size: 12px;
 	font-weight: 600;
 	padding-left: 20px;
-	color: #353333;
 }
 .product-contents .socials {
 	display: flex;
@@ -979,23 +968,16 @@ header .mobile-toggle img {
 	display: inline-block;
 	margin-left: 20px;
 }
-.product-contents .socials li span {
+.product-contents .socials li > span {
 	display: inline-block;
 	font-size: 12px;
 	font-weight: 600;
-	margin-left: 10px;
+	margin-left: 15px;
 }
-.product-contents .socials li img {
-	width: 35px;
-	height: 35px;
-}
-.product-contents .social-share li img {
-	width: 24px;
-	height: 24px;
-}
+
 .product-contents .socials li a {
 	font-size: 20px;
-	color: #353333;
+	color: #848484;
 }
 .related-products {
 	padding-top: 108px;
@@ -1040,12 +1022,7 @@ header .mobile-toggle img {
 }
 .about-section .section-subtitle h3 {
 	font-size: 32px;
-	text-transform: uppercase;
 	color: #353333;
-	font-family: "Neue Machina", sans-serif;
-}
-.about-section .padding-right {
-	padding-right: 45px;
 }
 .about-bottom-section .content-title {
 	text-align: center;
