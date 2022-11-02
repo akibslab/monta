@@ -17,6 +17,11 @@
 			$(".side-menu").removeClass("active");
 		});
 
+		$('.magnificPopup').magnificPopup({
+		  type: 'image'
+		  // other options
+		});
+
 		$(window).on("resize", function (e) {
 			checkScreenSize();
 		});
