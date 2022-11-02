@@ -178,6 +178,9 @@
 	.about-contents {
 		margin-bottom: 45px;
 	}
+	.gallery-section .carousel-item {
+		height: 600px;
+	}
 }
 
 /* Mobile Layout: 320px. */
@@ -206,6 +209,14 @@
 	header {
 		padding: 20px 0;
 		background: #fff;
+	}
+
+	header .container {
+		padding: 0 25px;
+	}
+
+	header .logo-box img {
+		width: 124px;
 	}
 
 	header .header-menu {
@@ -279,7 +290,7 @@
 	.intro-section .intro-item h4.heading-4 {
 		max-width: 350px;
 		width: 100%;
-		margin: -55px auto 0;
+		margin: -40px auto 0;
 	}
 
 	.intro-section .intro-item p,
@@ -298,7 +309,7 @@
 		height: initial;
 		border: none !important;
 		padding: 0;
-		margin-bottom: 25px;
+		height: 80px;
 	}
 
 	.features-box .feature-item:hover p {
@@ -564,8 +575,8 @@
 		padding: 45px 0;
 	}
 	.about-section .margin-bottom {
-    margin-bottom: 50px;
-}
+    	margin-bottom: 50px;
+	}
 	.about-section .section-title {
 		margin-bottom: 30px;
 	}
@@ -593,6 +604,10 @@
 	.about-bottom-section .content-title h2.heading-2:last-child {
 		font-size: 30px;
 		margin-bottom: 80px;
+	}
+
+	.gallery-section .carousel-item {
+		height: 365px;
 	}
 }
 
