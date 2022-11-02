@@ -191,10 +191,14 @@ header {
 	background: #fafafa;
 }
 
+header .logo-box img {
+	width: 160px;
+}
+
 header .header-menu ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 header .header-menu ul li {
@@ -1123,4 +1127,8 @@ footer {
 
 .footer-bottom .footer-logo {
 	margin-bottom: 20px;
+}
+
+.footer-bottom .footer-logo img {
+  width: 149px;
 }
